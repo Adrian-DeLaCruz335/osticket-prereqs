@@ -71,21 +71,21 @@ ___
 <br />
 
 <p>
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/9c821bd8-ac97-4843-afc5-478fd171108b" />
+<img width="455" height="582" alt="image" src="https://github.com/user-attachments/assets/b6b67d8e-05a0-4556-8efe-5a1780fd084c" />
 
 </p>
 <p>
-5. Now, we installed HeidiSQL. </p> HeidiSQL provides a graphical interface to view and edit the database. This essentially makes the behind-the-scenes management much safer and easier allowing us to set up tables, users, and permissions much more easily.
+5. HeidiSQL gives a visual way to work with the database, making it simpler and safer to set up tables, manage users, and control permissions
 </p>
 <br />
 <p>
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/4f310d12-0c18-4a7d-9f4e-ee4efd367121" />
-
+<img width="452" height="458" alt="image" src="https://github.com/user-attachments/assets/b92a0c94-fa32-432d-85fe-eeb605dae976" />
+ <img width="842" height="545" alt="image" src="https://github.com/user-attachments/assets/24f540ea-ed3d-4cc4-bf58-fd6bfb136f5c" />
 
 
 </p>
 <p>
-Inside Heidi SQL, I created a database called "osTicket." This serves as the central database to store all tickets, user data, and system configurations for the help desk system.
+Using HeidiSQL, I set up a database called "osTicket". It will serve as the central storage for all tickets, user accounts, and configuration settings for the help desk system.
 </p>
 <br />
 <p>
