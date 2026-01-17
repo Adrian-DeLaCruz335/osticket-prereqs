@@ -19,10 +19,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Azure subscription
-- Windows 10 VM
-- Ensure compatability with RDP using port 3389
-- osTicket-Installation-Files.zip for setting up the installation
+- An active Azure account
+- A virtual machine running Windows 10
+- Remote Desktop access enabled on port 3389
+- The osTicket installation ZIP package
 
 <h2>Installation Steps</h2>
 
@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-1. First, I created a virtual machine within Azure to host the osTicket help desk system.
+1. The first step involved deploying a virtual machine in Azure, which would be used to run the osTicket help desk system.
 </p>
 <br />
 </p>
@@ -42,7 +42,7 @@ ___
 
 </p>
 <p>
-2. Then, I downloaded the osTicket-Installation-Files.zip and unziped it onto my desktop within the virual machine. </p> This contains all the core application files needed to deploy osTicket.
+2. I then downloaded the osTicket installation ZIP file and extracted it to the desktop inside the virtual machine. The extracted files contain everything needed to install and run osTicket.
   </p>
 </p>
 <br />
@@ -52,9 +52,7 @@ ___
 
 </p>
 <p>
-3. I Installed / Enabled IIS in Windows WITH CGI
-World Wide Web Services -> Application Development Features -> [X] CGI.</p>
-  This ensures the osTicket system can actually run on Windows. It allows the server to execute scripts such as PHP, the language osTicket is written in.
+3. Next, Internet Information Services (IIS) was enabled on the Windows machine, with CGI selected under World Wide Web Services → Application Development Features. Enabling CGI allows the server to execute PHP scripts used by osTicket.
   </p>
 
 </p>
@@ -65,7 +63,7 @@ World Wide Web Services -> Application Development Features -> [X] CGI.</p>
 
 </p>
 <p>
-4. Here we registered PHP from within IIS </p> This step connects IIS(the web server) to the PHP interpreter so it knows how to process PHP files.
+4. In this step, PHP was configured in IIS so the web server can communicate with the PHP interpreter. This allows PHP scripts, which osTicket relies on, to run properly.
 </p>
 </p>
 <br />
